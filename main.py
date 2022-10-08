@@ -8,7 +8,7 @@ import push
 
 # 加载数据文件
 with open('./data.json', 'r', encoding='utf8') as fp:
-    datas = json.load(fp)
+    datas = eval(fp.read())
 
 for data in datas:
     sub_data = data[0]
