@@ -23,7 +23,7 @@ jobs:
 
     - name: Make Config
       run: |
-        echo "${{ secrets.DATA }}"
+        echo '${{ secrets.DATA }}' > DATA
 
     - name: Report
       run: |
