@@ -7,7 +7,7 @@ import requests
 import push
 
 # 加载数据文件
-with open('./data.json', 'r', encoding='utf8') as fp:
+with open('./DATA', 'r', encoding='utf8') as fp:
     datas = eval(fp.read())
 
 for data in datas:
